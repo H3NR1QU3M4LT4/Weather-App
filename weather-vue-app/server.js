@@ -9,3 +9,5 @@ app.get(/.*/, function(req, res){
 })
 const port = process.env.PORT || 8080;
 app.listen(port);
+// eslint-disable-next-line no-console
+console.log(`App is listening on port: ${port}`);
